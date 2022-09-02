@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    height: 70px;
+}
+#partelogo {
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+#logo{
+    width: 100%;
+    float: left;
+    border-radius: 5%;
+}
+h1{
+    float: left;
+    margin-left: 1%;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
