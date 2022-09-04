@@ -23,10 +23,11 @@ header {
 h1{
     float: left;
     margin-left: 1%;
+    font-size: 100%;
 }
+
 nav ul li {
     display: inline-block;
-    float: right;
     margin-top: 1.5%;
     margin-right: 10%;
 }
@@ -92,6 +93,7 @@ main{
     margin-top: 2%;
     margin-right: 10%;
 }
+
 #js{
     float: right;
     background-color: aquamarine;
@@ -196,4 +198,37 @@ footer{
 #direitos img{
     width: 100%;
     border-radius: 10px;
+}
+
+/*Media*/
+@media (max-width:320px){
+    /*header*/
+
+   #partelogo{
+     width: 12%;
+     margin-top: 7.5%;
+     margin-left: 2.5%;
+   }
+   #logo{
+    border-radius: 20%;
+   }
+   header h1{
+        font-size: 90%;
+        margin-top: 1%;
+        margin-left: 1%;
+   }
+   nav{
+    width: 50%;
+   }
+   nav ul li{
+        width: 15%;
+        margin-top: 1%;
+   }
+   nav ul li a{
+        width: 100%;
+        margin-left: 20%;
+        margin-right: 20%;
+   }
+
+
 }
