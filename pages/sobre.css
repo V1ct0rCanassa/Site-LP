@@ -64,71 +64,57 @@ main{
     margin-top: 7%;
     margin-left: 5%;
 }
-
+/*primeira sec*/
 #notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
     float: left;
-    clear: both;
-    width: 50%;
     margin-top: 2%;
-    margin-left: 5%;
-    border: 1px solid black;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: ;
+}
+#notlogo{
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
 }
 #imgprin{
     width: 100%;
 }
 #notprin h2{
-    margin-top: 0.50%;
-    margin-left: 50%;
-    font-size: 100%;
+    text-align: center;
+    font-size: 300%;
 }
 #notprin p{
-    margin-left: 13%;
-    font-size: 100%;
-}
-#slides{
-    float: right;
-    width: 25%;
-    background-color: white;
-    margin-top: 2%;
-    margin-right: 10%;
-}
-#js{
-    float: right;
-    background-color: aquamarine;
-    margin-top: 5%;
-    width: 25%;
-    margin-right: 10%;
-}
-.notsec{
-    float: left;
-    clear: both;
-    width: 50%;
-    background-color: bisque;
-    margin-top: 2.5%;
-    margin-left: 25%;
-    margin-bottom: 2.5%;
-}
-.imgsec{
-    width: 50%;
-    float: left;
-}
-.notsec h3{
-    float: right;
-    width: 25%;
     text-align: center;
-    margin-top: 2.5%;
-    margin-right: 10%;
+    font-size: 110%;
+    padding-bottom: 10px;
 }
-.notsec p{
-    float: right;
-    width: 40%;
+/*segunda sec*/
+#qsomos{
+    padding-top: 35px;
+    width: 100%;
+    float: left;
     text-align: center;
-    margin-top: 2.5%;
-    margin-right: 5%;
+    margin-bottom: 20px;
 }
-
-
-
+#qsomos h2{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
 /*footer*/
 footer{
     float: left;
