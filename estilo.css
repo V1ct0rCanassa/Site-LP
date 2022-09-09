@@ -6,10 +6,8 @@
 header {
     width: 100%;
     background-color: aqua;
-    position: absolute;
-    top: 0;
+    position: fixed;
     height: 70px;
-    z-index: 1;
 }
 #partelogo {
     width: 5%;
@@ -27,24 +25,16 @@ h1{
     margin-left: 1%;
     font-size: 100%;
 }
-nav{
-    width: 50%;
-    margin-left: 40%;
-   }
-   nav ul li{
-        display: inline-block;
-        width: 25%;
-        margin-top: 3%;
-        margin-left: 10%;
-   }
-   nav ul li a{
-        width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
-        text-decoration: none;
-        color: black;
-   } 
-
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
 /*Main*/
 img{
     width: 50px;
@@ -145,7 +135,7 @@ main{
 footer{
     float: left;
     clear: both;
-    background-color: brown;
+    background-color: red;
     width: 100%;
 }
 #infos{
@@ -218,7 +208,7 @@ footer{
     }
    #partelogo{
      width: 12%;
-     margin-top: 7.5%;
+     margin-top: 5%;
      margin-left: 2.5%;
    }
    #logo{
@@ -229,21 +219,10 @@ footer{
         margin-top: 1%;
         margin-left: 1%;
    }
-   nav{
-    width: 50%;
-    margin-left: 40%;
+   nav ul li {
+    margin-top: 1%;
+    margin-right: 6%;
    }
-   nav ul li{
-        width: 25%;
-        margin-top: 1%;
-        margin-left: 10%;
-   }
-   nav ul li a{
-        width: 100%;
-        margin-left: 20%;
-        margin-right: 20%;
-   }
-
     /*Main*/
    main{
     margin-top: 18.5%;
@@ -316,7 +295,7 @@ footer{
    }
 
 }
-@media (min-width: 320px) and (max-width:480px){
+@media (min-width: 321px) and (max-width:480px){
     /*Header*/
     #partelogo{
         width: 12%;
