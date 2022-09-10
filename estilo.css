@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-color: yellow;
+}
 /*Header*/
 header {
     width: 100%;
@@ -297,9 +300,12 @@ footer{
 }
 @media (min-width: 321px) and (max-width:480px){
     /*Header*/
+    header{
+        height: 60px;
+    }
     #partelogo{
         width: 12%;
-        margin-top: 3.5%;
+        margin-top: 5.5%;
         margin-left: 2.5%;
       }
     #logo{
@@ -310,14 +316,16 @@ footer{
         margin-top: 1.5%;
         margin-left: 1%;
       }
-       
-
+      nav ul li {
+        margin-top: 1.5%;
+        margin-right: 6%;  
+      }
        /*Main*/
        main{
-            margin-top: 14%;
+            margin-top: 17%;
        }
        #banner{
-            margin-left: 35%;
+            margin-left: 36%;
             width: 35%;
             margin-bottom: 2.5%;
             margin-top: 6%;
@@ -328,7 +336,7 @@ footer{
        }
        #banner h1{
             font-size: 90%;
-            margin-top: 3%;
+            margin-top: 5%;
        }
        #slides, #js {
             visibility: hidden;
@@ -351,8 +359,8 @@ footer{
             margin-bottom: 1%;
        }
        .notsec{
-            width: 70%;
-            margin-left: 15%;
+            width: 90%;
+            margin-left: 5%;
             margin-bottom: 10%;
        }
        .imgsec{
@@ -385,9 +393,12 @@ footer{
 }
 @media (min-width:481px) and (max-width:768px){
         /*Header*/
+        header{
+            height: 60px;
+        }
         #partelogo{
             width: 10%;
-            margin-top: 2%;
+            margin-top: 3%;
             margin-left: 2.5%;
         }
         #logo{
@@ -398,12 +409,9 @@ footer{
             margin-top: 1.2%;
             margin-left: 1%;
         }
-        nav {
-            margin-top: 3%;
-            margin-left: 60%;
-        }
-        nav ul li{
-            margin-left: 10%;
+        nav ul li {
+            margin-top: 1.5%;
+            margin-right: 9%;  
         }
         /*Main*/
         main{
@@ -420,7 +428,7 @@ footer{
             width: 40%;
        }
        #banner h1{
-            font-size: 100%;
+            font-size: 90%;
             margin-top: 5%;
        }
        #notprin{
@@ -442,13 +450,18 @@ footer{
             margin-right: 3%;
        }
        .notsec{
-        width: 70%;
-        margin-left: 15%;
+        width: 90%;
+        margin-left: 5%;
         margin-top: 7%;
         margin-bottom: 5%;
        }
        .notsec h3{
+            margin-top: 1%;
             margin-right: 13%;
+       }
+       .notsec p{
+        margin-top: 0.50%;
+        font-size: 100%;
        }
        /*footer*/
        #direitos ul{
@@ -464,4 +477,253 @@ footer{
         #direitos img{
             width: 100%;
         }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    /*Header*/
+    #partelogo{
+        width: 9%;
+        margin-top: 1.5%;
+        margin-left: 2.5%;
+    }
+    #logo{
+        border-radius: 20%;
+    }
+    header h1{
+        font-size: 120%;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    nav ul li {
+        margin-top: 1.5%; 
+    }
+    /*Main*/
+    main{
+        margin-top: 10%;
+    }
+    #banner{
+        margin-left: 42%;
+        width: 20%;
+        margin-bottom: 2.5%;
+        margin-top: 3%;
+   }
+   #logob{
+        border-radius: 20%;
+        width: 40%;
+   }
+   #banner h1{
+        font-size: 100%;
+        margin-top: 5%;
+   }
+    #notprin{
+        width: 60%;
+        margin-left: 3%;
+    }
+    #notprin h2{
+        width: 100%;
+        margin-left: 0;
+        text-align: center;
+    }
+    #notprin p{
+        width: 90%;
+        margin-left: 5%;
+        text-align: center;
+        margin-bottom: 2.5%;
+    }
+    #slides , #js{
+        margin-right: 5%;
+    }
+    .notsec{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+       }
+       .notsec h3{
+            margin-top: 1%;
+            margin-right: 13%;
+       }
+       .notsec p{
+        margin-top: 0.50%;
+        font-size: 100%;
+       }
+       /*Footer*/
+       #direitos ul{
+        width: 50%;
+        margin-left: 35.5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 12%;
+            margin-left: 5%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:1025px) and (max-width:1200px){
+        /*Header*/
+        #partelogo{
+            width: 7%;
+            margin-top: 1.5%;
+            margin-left: 2.5%;
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        header h1{
+            font-size: 120%;
+            margin-top: 0.75%;
+            margin-left: 1%;
+        }
+        nav ul li {
+            margin-top: 1.25%; 
+        }
+        /*Main*/
+        main{
+            margin-top: 6%;
+        }
+        #banner{
+            margin-left: 42%;
+            width: 20%;
+            margin-bottom: 2.5%;
+            margin-top: 3%;
+        }
+        #logob{
+                border-radius: 20%;
+                width: 40%;
+        }
+        #banner h1{
+                font-size: 100%;
+                margin-top: 5%;
+        }
+        #notprin{
+            width: 60%;
+            margin-left: 3%;
+        }
+        #notprin h2{
+            width: 100%;
+            margin-left: 0;
+            text-align: center;
+        }
+        #notprin p{
+            width: 90%;
+            margin-left: 5%;
+            text-align: center;
+            margin-bottom: 2.5%;
+        }
+        #slides , #js{
+            margin-right: 5%;
+        }
+    .notsec{
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 7%;
+        margin-bottom: 5%;
+       }
+       .notsec h3{
+            margin-top: 1%;
+            margin-right: 13%;
+       }
+       .notsec p{
+        margin-top: 0.50%;
+        font-size: 100%;
+       }
+       /*Footer*/
+       #direitos ul{
+        width: 50%;
+        margin-left: 35.5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 10%;
+            margin-left: 6%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:1201px){
+    /*Header*/
+        #partelogo{
+            width: 7%;
+            margin-top: 1%;
+            margin-left: 2.5%;
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        header h1{
+            font-size: 120%;
+            margin-top: 0.75%;
+            margin-left: 1%;
+        }
+        nav ul li {
+            margin-top: 1.25%; 
+        }
+    /*Main*/
+        main{
+            margin-top: 4%;
+        }
+        #banner{
+            margin-left: 42%;
+            width: 19%;
+            margin-bottom: 2.5%;
+            margin-top: 3%;
+        }
+        #logob{
+            border-radius: 20%;
+            width: 40%;
+        }
+        #banner h1{
+            font-size: 120%;
+            margin-top: 6%;
+        }
+        #notprin{
+            width: 60%;
+            margin-left: 3%;
+        }
+        #notprin h2{
+            width: 100%;
+            margin-left: 0;
+            text-align: center;
+        }
+        #notprin p{
+            width: 90%;
+            margin-left: 5%;
+            text-align: center;
+            margin-bottom: 2.5%;
+        }
+        #slides , #js{
+            margin-right: 5%;
+        }
+        .notsec{
+            width: 80%;
+            margin-left: 10%;
+            margin-top: 7%;
+            margin-bottom: 5%;
+        }
+        .notsec h3{
+            margin-top: 1%;
+            margin-right: 13%;
+        }
+        .notsec p{
+            margin-top: 0.50%;
+            font-size: 100%;
+        }
+    /*Footer*/
+        #direitos ul{
+            width: 50%;
+            margin-left: 35.5%;
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 10%;
+            margin-left: 6%;
+        }
+        #direitos img{
+            width: 100%;
+        }        
 }
