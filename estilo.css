@@ -89,14 +89,17 @@ main{
     margin-left: 13%;
     font-size: 100%;
 }
+/*Slides*/
 #slides{
     float: right;
     width: 25%;
     background-color: white;
     margin-top: 2%;
     margin-right: 10%;
+    overflow: hidden;
 }
 
+/*Slides*/
 #js{
     float: right;
     background-color: aquamarine;
@@ -647,7 +650,7 @@ footer{
 @media (min-width:1201px){
     /*Header*/
         #partelogo{
-            width: 7%;
+            width: 5%;
             margin-top: 1%;
             margin-left: 2.5%;
         }
