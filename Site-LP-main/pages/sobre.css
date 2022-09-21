@@ -1,0 +1,680 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: yellow;
+}
+/*Header*/
+header {
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+    height: 70px;
+}
+#partelogo {
+    width: 5%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+#logo{
+    width: 100%;
+    float: left;
+    border-radius: 5%;
+}
+h1{
+    float: left;
+    margin-left: 1%;
+    font-size: 100%;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*Main*/
+img{
+    width: 50px;
+}
+main{
+    float: left;
+    clear: both;
+    background-color: yellow;
+    margin-top: 4.5%;
+    width: 100%;
+    z-index: 1;
+}
+#banner{
+    float: left;
+    clear: both;
+    width: 10%;
+    margin-top: 1%;
+    margin-left: 45%;
+}
+#logob{
+    width: 50%;
+    float: left;
+    border-radius: 15%;
+}
+#banner h1{
+    float: left;
+    font-size: 120%;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+/*primeira sec*/
+#notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: auto;
+}
+#notlogo{
+    width: 10%;
+    margin-left: 45%;
+    margin-right: 45%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#imgprin{
+    width: 100%;
+}
+#notprin h2{
+    text-align: center;
+    font-size: 300%;
+}
+#notprin p{
+    text-align: center;
+    font-size: 110%;
+    padding-bottom: 10px;
+}
+/*segunda sec*/
+#qsomos{
+    padding-top: 35px;
+    width: 100%;
+    float: left;
+    text-align: center;
+    margin-bottom: 20px;
+}
+#qsomos h2{
+    text-align: center;
+    font-size: 200%;
+    margin-bottom: 50px;
+}
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+/*footer*/
+footer{
+    float: left;
+    clear: both;
+    background-color: red;
+    width: 100%;
+}
+#infos{
+    width: 100%;
+    background-color: green;
+    float: left;
+    clear: both;
+}
+#infos ul{
+    width: 25%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 5%;
+    list-style-type: none;
+}
+#infos li{
+    margin-top: 2.5%;
+    margin-left: 45%;
+    margin-bottom: 2.5%;
+}
+#infos1{
+    float: left;
+    background-color: aqua;
+}
+#infos2{
+    float: left;
+    background-color: blueviolet;
+}
+#infos3{
+    float: left;
+    background-color: aquamarine;
+}
+#infos a{
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+}
+#direitos{
+    float: left;
+    clear: both;
+    width: 100%;
+}
+#direitos p{
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5%;
+}
+#direitos ul{
+    width: 50%;
+    margin-left: 46%;
+    margin-top: 0.5%;
+}
+#direitos ul li{
+    display: inline-block;
+    width: 5%;
+}
+#direitos a{
+    margin-left: 1%;
+}
+#direitos img{
+    width: 100%;
+    border-radius: 10px;
+}
+/*Media*/
+@media (max-width:320px){
+    /*header*/
+    header{
+        height: 60px;
+    }
+   #partelogo{
+     width: 12%;
+     margin-top: 5%;
+     margin-left: 2.5%;
+   }
+   #logo{
+    border-radius: 20%;
+   }
+   header h1{
+        font-size: 90%;
+        margin-top: 1%;
+        margin-left: 1%;
+   }
+   nav ul li {
+    margin-top: 1%;
+    margin-right: 6%;
+   }
+    /*Main*/
+   main{
+    margin-top: 18.5%;
+   }
+   #banner{
+    margin-left: 35%;
+    width: 35%;
+    margin-bottom: 2.5%;
+    margin-top: 6%;
+   }
+   #logob{
+    border-radius: 20%;
+    width: 40%;
+   }
+   #banner h1{
+        font-size: 90%;
+        margin-top: 3%;
+   }
+   /*primeira sec*/
+#notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-position:center 10%;
+    background-size:cover;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: auto;
+}
+#notlogo{
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+   /*footer*/
+   #direitos ul{
+        width: 50%;
+        margin-left: 25%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+   }
+   #direitos ul li{
+        width: 25%;
+        margin-left: 5%;
+   }
+   #direitos img{
+        width: 100%;
+   }
+
+}
+@media (min-width: 321px) and (max-width:480px){
+    /*Header*/
+    header{
+        height: 60px;
+    }
+    #partelogo{
+        width: 12%;
+        margin-top: 5.5%;
+        margin-left: 2.5%;
+      }
+    #logo{
+        border-radius: 20%;
+      }
+    header h1{
+        font-size: 100%;
+        margin-top: 1.5%;
+        margin-left: 1%;
+      }
+      nav ul li {
+        margin-top: 1.5%;
+        margin-right: 6%;  
+      }
+       /*Main*/
+       main{
+            margin-top: 17%;
+       }
+       #banner{
+            margin-left: 36%;
+            width: 35%;
+            margin-bottom: 2.5%;
+            margin-top: 6%;
+       }
+       #logob{
+            border-radius: 20%;
+            width: 40%;
+       }
+       #banner h1{
+            font-size: 90%;
+            margin-top: 5%;
+       }
+       /*primeira sec*/
+       #notprin{
+        background-image: url(../img/new_era-mw2.jpg);
+        background-repeat: no-repeat;
+        background-position:center 10%;
+        background-size:cover;
+        float: left;
+        margin-top: 2%;
+        text-align: center;
+        padding: 35px;
+        padding-bottom: 50px;
+        /*altura da imagem de fundo*/
+        height: auto;
+    }
+    #notlogo{
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+        /*footer*/
+        #direitos ul{
+            width: 50%;
+            margin-left: 25%;
+            margin-top: 2.5%;
+            margin-bottom: 2.5%;
+        }
+        #direitos ul li{
+            width: 20%;
+        margin-left: 10%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:481px) and (max-width:768px){
+        /*Header*/
+        header{
+            height: 60px;
+        }
+        #partelogo{
+            width: 10%;
+            margin-top: 3%;
+            margin-left: 2.5%;
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        header h1{
+            font-size: 120%;
+            margin-top: 1.2%;
+            margin-left: 1%;
+        }
+        nav ul li {
+            margin-top: 1.5%;
+            margin-right: 9%;  
+        }
+        /*Main*/
+        main{
+            margin-top: 9%;
+        }
+        #banner{
+            margin-left: 42%;
+            width: 20%;
+            margin-bottom: 2.5%;
+            margin-top: 3%;
+       }
+       #logob{
+            border-radius: 20%;
+            width: 40%;
+       }
+       #banner h1{
+            font-size: 90%;
+            margin-top: 5%;
+       }
+       /*primeira sec*/
+       #notprin{
+        background-image: url(../img/new_era-mw2.jpg);
+        background-repeat: no-repeat;
+        background-position:center 10%;
+        background-size:cover;
+        float: left;
+        margin-top: 2%;
+        text-align: center;
+        padding: 35px;
+        padding-bottom: 50px;
+        /*altura da imagem de fundo*/
+        height: auto;
+    }
+    #notlogo{
+        width: 40%;
+        margin-left: 30%;
+        margin-right: 30%;
+        display: block;
+        margin-top: 60px;
+        margin-bottom: 50px;
+    }
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+       /*footer*/
+       #direitos ul{
+            width: 50%;
+            margin-left: 35.5%;
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 12%;
+            margin-left: 5%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:769px) and (max-width:1024px) {
+    /*Header*/
+    #partelogo{
+        width: 9%;
+        margin-top: 1.5%;
+        margin-left: 2.5%;
+    }
+    #logo{
+        border-radius: 20%;
+    }
+    header h1{
+        font-size: 120%;
+        margin-top: 1%;
+        margin-left: 1%;
+    }
+    nav ul li {
+        margin-top: 1.5%; 
+    }
+    /*Main*/
+    main{
+        margin-top: 10%;
+    }
+    #banner{
+        margin-left: 42%;
+        width: 20%;
+        margin-bottom: 2.5%;
+        margin-top: 3%;
+   }
+   #logob{
+        border-radius: 20%;
+        width: 40%;
+   }
+   #banner h1{
+        font-size: 100%;
+        margin-top: 5%;
+   }
+    /*primeira sec*/
+#notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: auto;
+}
+#notlogo{
+    width: 30%;
+    margin-left: 35%;
+    margin-right: 35%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+       /*Footer*/
+       #direitos ul{
+        width: 50%;
+        margin-left: 35.5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 12%;
+            margin-left: 5%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:1025px) and (max-width:1200px){
+        /*Header*/
+        #partelogo{
+            width: 7%;
+            margin-top: 1.5%;
+            margin-left: 2.5%;
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        header h1{
+            font-size: 120%;
+            margin-top: 0.75%;
+            margin-left: 1%;
+        }
+        nav ul li {
+            margin-top: 1.25%; 
+        }
+        /*Main*/
+        main{
+            margin-top: 6%;
+        }
+        #banner{
+            margin-left: 42%;
+            width: 20%;
+            margin-bottom: 2.5%;
+            margin-top: 3%;
+        }
+        #logob{
+                border-radius: 20%;
+                width: 40%;
+        }
+        #banner h1{
+                font-size: 100%;
+                margin-top: 5%;
+        }
+        /*primeira sec*/
+#notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: auto;
+}
+#notlogo{
+    width: 22%;
+    margin-left: 39%;
+    margin-right: 39%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+       /*Footer*/
+       #direitos ul{
+        width: 50%;
+        margin-left: 35.5%;
+        margin-top: 1%;
+        margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 10%;
+            margin-left: 6%;
+        }
+        #direitos img{
+            width: 100%;
+        }
+}
+@media (min-width:1201px){
+    /*Header*/
+        #partelogo{
+            width: 7%;
+            margin-top: 1%;
+            margin-left: 2.5%;
+        }
+        #logo{
+            border-radius: 20%;
+        }
+        header h1{
+            font-size: 120%;
+            margin-top: 0.75%;
+            margin-left: 1%;
+        }
+        nav ul li {
+            margin-top: 1.25%; 
+        }
+    /*Main*/
+        main{
+            margin-top: 4%;
+        }
+        #banner{
+            margin-left: 42%;
+            width: 19%;
+            margin-bottom: 2.5%;
+            margin-top: 3%;
+        }
+        #logob{
+            border-radius: 20%;
+            width: 40%;
+        }
+        #banner h1{
+            font-size: 120%;
+            margin-top: 6%;
+        }
+        /*primeira sec*/
+#notprin{
+    background-image: url(../img/new_era-mw2.jpg);
+    background-repeat: no-repeat;
+    background-size:100%;
+    float: left;
+    margin-top: 2%;
+    text-align: center;
+    padding: 35px;
+    padding-bottom: 50px;
+    /*altura da imagem de fundo*/
+    height: auto;
+}
+#notlogo{
+    width: 22%;
+    margin-left: 39%;
+    margin-right: 39%;
+    display: block;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+/*segunda sec*/
+#qsomos p{
+    font-size: 110%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+    /*Footer*/
+        #direitos ul{
+            width: 50%;
+            margin-left: 35.5%;
+            margin-top: 1%;
+            margin-bottom: 2%;
+        }
+        #direitos ul li{
+            width: 10%;
+            margin-left: 6%;
+        }
+        #direitos img{
+            width: 100%;
+        }        
+}
