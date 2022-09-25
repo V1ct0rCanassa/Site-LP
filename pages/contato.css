@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Montserrat:wght@200&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #FFFAFA;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    background-color: rgb(0, 66, 28);
+    position: fixed;
+    z-index: 1;
+}
+
+
+#partelogo {
+    width: 3%;
+    margin-top: 0.2%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+#logo {
+    width: 100%;
+    float: left;
+    border-radius: 5%;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+
+/*Main*/
+main {
+    float: left;
+    clear: both;
+    background-color: white;
+    margin-top: 4.5%;
+    width: 100%;
+    z-index: 1;
+}
+/***********main-contact.area**********/
+#contact-area{
+    text-align: center;
+
+}
+.contact-box{
+    padding-bottom: 8%;
+    margin-bottom: 8%;
+    border-bottom: 1px solid #195005;
+}
+.contact-box1{
+    padding-bottom: 4%;
+    margin-bottom: 4%;
+}
+#img-2{
+    margin-top: 5%;
+    width: 6.4%;
+    height: 80px;
+}
+#img-3{
+    width: 6.4%;
+    height: 80px;
+}
+#img-4{
+    width: 6.4%;
+    height: 80px;
+}
+.main-title{
+    font-size: 50px;
+    margin-top: 5%;
+}
+
+/*footer*/
+footer {
+    float: left;
+    clear: both;
+    background-color: rgb(0, 66, 28);
+    width: 100%;
+}
+
+#infos {
+    width: 100%;
+    background-color: rgb(0, 66, 28);
+    float: left;
+    clear: both;
+    border-bottom:  2px solid black ;
+}
+
+#infos ul {
+    width: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 12%;
+    list-style-type: none;
+}
+
+#infos li {
+    margin-top: 2.5%;
+    margin-left: 45%;
+    margin-bottom: 2.5%;
+}
+
+#infos1 {
+    float: left;
+}
+#infos1 img{
+    width: 70%;
+    height: 40px;
+}
+
+#infos2 {
+    float: left;
+}
+#infos2 img{
+    width: 70%;
+    height: 40px;
+}
+#infos3 {
+    float: left;
+}
+#infos3 img{
+    width: 70%;
+    height: 40px;
+}
+#infos4 {
+    float: left;
+}
+#infos4 img{
+    width: 70%;
+    height: 40px;
+}
+#infos5 {
+    float: left;
+}
+#infos5 img{
+    width: 70%;
+    height: 40px;
+}
+#infos a {
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    font-weight: 800;
+}
+
+#direitos {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+
+#direitos p {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5%;
+    font-weight: 800;
+    color: white;
+}
+
+#direitos ul {
+    width: 100%;
+    margin-left: 43%;
+    margin-top: 0.5%;
+}
+
+#direitos ul li {
+    display: inline-block;
+    width: 5%;
+}
+
+#direitos a {
+    margin-left: 1%;
+}
+
+#direitos img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
