@@ -5,7 +5,10 @@
     font-family: 'Inter Tight', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
-
+h1, h2, h3, p, a{
+    text-decoration: none;
+    color: black;
+}
 body {
     background-color: #FFFAFA;
 }
@@ -95,6 +98,7 @@ main {
     margin-left: 50%;
     font-size: 120%;
     font-weight: bold;
+    text-decoration: none;
 }
 
 #notprin p {
@@ -102,6 +106,7 @@ main {
     font-size: 110%;
     color: black;
     font-weight: 800;
+    text-decoration: none;
 }
 
 /*Noticia rapida*/
@@ -174,6 +179,7 @@ main {
     text-align: center;
     margin-top: 2.5%;
     margin-right: 10%;
+    text-decoration: none;
 }
 
 .notsec p {
@@ -183,6 +189,7 @@ main {
     margin-top: 2.5%;
     margin-right: 5%;
     font-weight: 800;
+    text-decoration: none;
 }
 
 
