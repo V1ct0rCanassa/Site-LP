@@ -508,23 +508,21 @@ footer{
         }
 }
 @media (min-width:1025px) and (max-width:1200px){
-        /*Header*/
-        #partelogo{
-            width: 7%;
-            margin-top: 1.5%;
-            margin-left: 2.5%;
-        }
-        #logo{
-            border-radius: 20%;
-        }
-        header h1{
-            font-size: 120%;
-            margin-top: 0.75%;
-            margin-left: 1%;
-        }
-        nav ul li {
-            margin-top: 1.25%; 
-        }
+    /*Header*/
+    #partelogo {
+        width: 5%;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 2.5%;
+        margin-bottom: 3.5%;
+    }
+
         /*Main*/
         main{
             margin-top: 6%;
@@ -587,22 +585,20 @@ footer{
 }
 @media (min-width:1201px){
     /*Header*/
-        #partelogo{
-            width: 7%;
-            margin-top: 1%;
-            margin-left: 2.5%;
-        }
-        #logo{
-            border-radius: 20%;
-        }
-        header h1{
-            font-size: 120%;
-            margin-top: 0.75%;
-            margin-left: 1%;
-        }
-        nav ul li {
-            margin-top: 1.25%; 
-        }
+    #partelogo {
+        width: 5%;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 1.5%;
+        margin-bottom: 3%;
+    }
+
     /*Main*/
         main{
             margin-top: 4%;
