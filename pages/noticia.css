@@ -91,6 +91,8 @@ main {
     margin-top: 2%;
     margin-left: 5%;
     background-color: #FFEFD5;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 #intro{
     float: left;
@@ -104,20 +106,30 @@ main {
 }
 
 #notprin h2 {
-    margin-top: 0.50%;
-    margin-left: 50%;
-    font-size: 120%;
+    padding-top: 10px;
+    padding-bottom:10px ;
     font-weight: bold;
+    margin-left: 30px;
 }
 
 #notprin p {
-    margin-left: 13%;
-    font-size: 120%;
         margin-left: 13%;
         font-size: 110%;
         color: black;
         font-weight: 800;
+        text-decoration: none;
 
+}
+#notprin a{
+    color: #000000;
+text-decoration: none;
+}
+#notprin a:hover{
+    font-size: large;
+    }
+#notprin a:visited{
+text-decoration: none;
+color: rgb(0, 66, 28);
 }
 
 /*Noticia rapida*/
@@ -346,7 +358,6 @@ nav ul li {
 
     #notprin h2 {
         font-size: 150%;
-        margin-left: 0;
         width: 100%;
         text-align: center;
     }
@@ -458,7 +469,6 @@ nav ul li {
 
     #notprin h2 {
         font-size: 150%;
-        margin-left: 0;
         width: 100%;
         text-align: center;
     }
@@ -561,7 +571,6 @@ nav ul li {
 
     #notprin h2 {
         width: 100%;
-        margin-left: 0;
         text-align: center;
     }
 
@@ -662,7 +671,6 @@ nav ul li {
 
     #notprin h2 {
         width: 100%;
-        margin-left: 0;
         text-align: center;
     }
 
@@ -766,7 +774,6 @@ nav ul li {
 
     #notprin h2 {
         width: 100%;
-        margin-left: 0;
         text-align: center;
     }
 
@@ -862,7 +869,6 @@ nav ul li {
 
     #notprin h2 {
         width: 100%;
-        margin-left: 0;
         text-align: left;
     }
     #notprint h1{
