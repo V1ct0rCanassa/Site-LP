@@ -1,25 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Montserrat:wght@200&display=swap');
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 body {
-    background-color: yellow;
+    background-color: #FFFAFA;
 }
-
 
 /*Header*/
 header {
     width: 100%;
-    background-color: aqua;
+    background-color: rgb(0, 66, 28);
     position: fixed;
-    height: 70px;
     z-index: 1;
 }
 
+
 #partelogo {
-    width: 5%;
-    margin-top: 0.3%;
+    width: 3%;
+    margin-top: 0.2%;
     margin-bottom: 1%;
     margin-left: 1%;
 }
@@ -29,13 +31,6 @@ header {
     float: left;
     border-radius: 5%;
 }
-
-h1 {
-    float: left;
-    margin-left: 0.75%;
-    font-size: 100%;
-}
-
 nav ul li {
     display: inline-block;
     float: right;
@@ -45,7 +40,8 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: black;
+    color: white;
+    font-size: 120%;
 }
 
 /*Main*/
@@ -61,7 +57,7 @@ img {
 main {
     float: left;
     clear: both;
-    background-color: yellow;
+    background-color: #FFFAFA;
     margin-top: 4.5%;
     width: 100%;
     z-index: 1;
@@ -282,32 +278,21 @@ footer {
 
 /*Media*/
 @media (max-width:320px) {
+ /*header*/
+ #partelogo {
+    width: 15%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
 
-    /*header*/
-    header {
-        height: 60px;
-    }
-
-    #partelogo {
-        width: 12%;
-        margin-top: 5%;
-        margin-left: 2.5%;
-    }
-
-    #logo {
-        border-radius: 20%;
-    }
-
-    header h1 {
-        font-size: 90%;
-        margin-top: 1%;
-        margin-left: 1%;
-    }
-
-    nav ul li {
-        margin-top: 1%;
-        margin-right: 6%;
-    }
+#logo {
+    border-radius: 20%;
+}
+nav ul li {
+    margin-top: 5%;
+    margin-bottom: 7%;
+    margin-right: 6%;
+}
 
     /*Main*/
     #mainnot{
@@ -403,14 +388,10 @@ footer {
 
 @media (min-width: 321px) and (max-width:480px) {
 
-    /*Header*/
-    header {
-        height: 60px;
-    }
-
-    #partelogo {
-        width: 12%;
-        margin-top: 5.5%;
+     /*Header*/
+     #partelogo {
+        width: 15%;
+        margin-top: 1.5%;
         margin-left: 2.5%;
     }
 
@@ -418,14 +399,9 @@ footer {
         border-radius: 20%;
     }
 
-    header h1 {
-        font-size: 100%;
-        margin-top: 1.5%;
-        margin-left: 1%;
-    }
-
     nav ul li {
-        margin-top: 1.5%;
+        margin-top: 5%;
+        margin-bottom: 7%;
         margin-right: 6%;
     }
 
@@ -522,31 +498,20 @@ footer {
 
 @media (min-width:481px) and (max-width:768px) {
 
-    /*Header*/
-    header {
-        height: 60px;
-    }
-
-    #partelogo {
-        width: 10%;
-        margin-top: 1%;
-        margin-left: 2.5%;
-    }
-
-    #logo {
-        border-radius: 20%;
-    }
-
-    header h1 {
-        font-size: 120%;
-        margin-top: 1.2%;
-        margin-left: 1%;
-    }
-
-    nav ul li {
-        margin-top: 1.5%;
-        margin-right: 9%;
-    }
+   /*Header*/
+   #partelogo {
+    width: 12%;
+    margin-top: 2%;
+    margin-left: 2.5%;
+}
+#logo {
+    border-radius: 20%;
+}
+nav ul li {
+    margin-top: 4%;
+    margin-bottom: 6.5%;
+    margin-right: 9%;
+}
 
     /*Main*/
     #mainnot{
@@ -636,23 +601,17 @@ footer {
 
     /*Header*/
     #partelogo {
-        width: 9%;
-        margin-top: 1%;
+        width: 8%;
+        margin-top: 1.5%;
         margin-left: 2.5%;
     }
 
     #logo {
         border-radius: 20%;
     }
-
-    header h1 {
-        font-size: 120%;
-        margin-top: 1%;
-        margin-left: 1%;
-    }
-
     nav ul li {
-        margin-top: 1.5%;
+        margin-top: 3.2%;
+        margin-bottom: 4%;
     }
 
     /*Main*/
@@ -750,25 +709,19 @@ footer {
 
 @media (min-width:1025px) and (max-width:1200px) {
 
-    /*Header*/
-    #partelogo {
-        width: 7%;
-        margin-top: 1.5%;
+     /*Header*/
+     #partelogo {
+        width: 5%;
+        margin-top: 1%;
         margin-left: 2.5%;
     }
 
     #logo {
         border-radius: 20%;
     }
-
-    header h1 {
-        font-size: 120%;
-        margin-top: 0.75%;
-        margin-left: 1%;
-    }
-
     nav ul li {
-        margin-top: 1.25%;
+        margin-top: 2.5%;
+        margin-bottom: 3.5%;
     }
 
     /*Main*/
@@ -863,15 +816,9 @@ footer {
     #logo {
         border-radius: 20%;
     }
-
-    header h1 {
-        font-size: 120%;
-        margin-top: 0.6%;
-        margin-left: 1%;
-    }
-
     nav ul li {
-        margin-top: 1.25%;
+        margin-top: 1.5%;
+        margin-bottom: 3%;
     }
 
     /*Main*/

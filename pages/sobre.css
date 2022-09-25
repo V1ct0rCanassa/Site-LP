@@ -1,10 +1,15 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100;0,200;0,300;1,100;1,200&family=Montserrat:wght@200&display=swap');
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Inter Tight', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
-body{
-    background-color: yellow;
+
+body {
+    background-color: #FFFAFA;
 }
+
 /*Header*/
 header {
     width: 100%;
@@ -38,14 +43,15 @@ nav ul li a {
     color: white;
     font-size: 120%;
 }
+
 /*Main*/
 img{
     width: 50px;
 }
-main{
+main {
     float: left;
     clear: both;
-    background-color: yellow;
+    background-color: #FFFAFA;
     margin-top: 4.5%;
     width: 100%;
     z-index: 1;
