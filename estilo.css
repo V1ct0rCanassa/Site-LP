@@ -244,16 +244,16 @@ footer {
 }
 
 #infos ul {
-    width: 25%;
+    width: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    margin-left: 5%;
+    margin-left: 12%;
     list-style-type: none;
 }
 
 #infos li {
     margin-top: 2.5%;
-    margin-left: 45%;
+    margin-left: 0%;
     margin-bottom: 2.5%;
 }
 
@@ -261,17 +261,37 @@ footer {
     float: left;
     background-color: aqua;
 }
-
+#infos1 img{
+    width: 100%;
+}
 #infos2 {
     float: left;
     background-color: blueviolet;
 }
-
+#infos2 img{
+    width: 100%;
+}
 #infos3 {
     float: left;
     background-color: aquamarine;
 }
-
+#infos3 img{
+    width: 100%;
+}
+#infos4 {
+    float: left;
+    background-color:  aqua;
+}
+#infos4 img{
+    width: 50%;
+}
+#infos5 {
+    float: left;
+    background-color: rgb(32, 197, 142);
+}
+#infos5 img{
+    width: 50%;
+}
 #infos a {
     text-decoration: none;
     color: black;
@@ -291,26 +311,30 @@ footer {
     margin-top: 2.5%;
     font-weight: 800;
 }
-
-#direitos ul {
+#direitos2 {
+    float: left;
+    clear: both;
     width: 50%;
-    margin-left: 46%;
+}
+#direitos2 ul {
+    width: 100%;
+    margin-left: 90%;
     margin-top: 0.5%;
 }
-
-#direitos ul li {
+#direitos2 ul li {
     display: inline-block;
     width: 5%;
 }
 
-#direitos a {
+#direito2 a {
     margin-left: 1%;
 }
 
-#direitos img {
+#direitos2 img {
     width: 100%;
     border-radius: 10px;
 }
+
 
 /*Media*/
 @media (max-width:320px) {
