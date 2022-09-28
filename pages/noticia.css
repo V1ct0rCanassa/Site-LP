@@ -290,15 +290,13 @@ footer {
     width: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    margin-left: 5%;
+    margin-left: 12%;
     list-style-type: none;
-}
-#infos ul:first-child{
-    margin-left: 30%;
 }
 
 #infos li {
     margin-top: 2.5%;
+    margin-left: 0%;
     margin-bottom: 2.5%;
 }
 
@@ -306,32 +304,32 @@ footer {
     float: left;
 }
 #infos1 img{
-    width: 100%;
+    width: 50%;
 }
+
 #infos2 {
     float: left;
 }
 #infos2 img{
-    width: 100%;
+    width: 50%;
 }
 #infos3 {
     float: left;
 }
 #infos3 img{
-    width: 100%;
+    width: 50%;
 }
 #infos4 {
     float: left;
-    
 }
 #infos4 img{
-    width: 100%;
+    width: 50%;
 }
 #infos5 {
     float: left;
 }
 #infos5 img{
-    width: 80%;
+    width: 50%;
 }
 #infos a {
     text-decoration: none;
@@ -345,23 +343,25 @@ footer {
     clear: both;
     width: 100%;
 }
-
 #direitos p {
     width: 100%;
     text-align: center;
     margin-top: 2.5%;
     font-weight: 800;
+    color: white;
 }
 #direitos2 {
     float: left;
     clear: both;
     width: 50%;
 }
+
 #direitos2 ul {
     width: 100%;
     margin-left: 90%;
     margin-top: 0.5%;
 }
+
 #direitos2 ul li {
     display: inline-block;
     width: 5%;
@@ -375,8 +375,6 @@ footer {
     width: 100%;
     border-radius: 10px;
 }
-
-
 
 /*Media*/
 @media (max-width:320px) {
