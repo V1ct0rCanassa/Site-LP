@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #FFFAFA;
+    background-color: white;
 }
 
 /*Header*/
@@ -17,10 +17,8 @@ header {
     position: fixed;
     z-index: 1;
 }
-
-
 #partelogo {
-    width: 3%;
+    width: 7%;
     margin-top: 0.2%;
     margin-bottom: 1%;
     margin-left: 1%;
@@ -53,10 +51,13 @@ main {
     width: 100%;
     z-index: 1;
 }
+.main-title{
+    font-size: 50px;
+    margin-top: 5%;
+}
 /***********main-contact.area**********/
 #contact-area{
     text-align: center;
-
 }
 .contact-box{
     padding-bottom: 8%;
@@ -69,20 +70,13 @@ main {
 }
 #img-2{
     margin-top: 5%;
-    width: 6.4%;
-    height: 80px;
+    width: 6.4%; 
 }
 #img-3{
     width: 6.4%;
-    height: 80px;
 }
 #img-4{
     width: 6.4%;
-    height: 80px;
-}
-.main-title{
-    font-size: 50px;
-    margin-top: 5%;
 }
 
 /*footer*/
@@ -111,7 +105,7 @@ footer {
 
 #infos li {
     margin-top: 2.5%;
-    margin-left: 45%;
+    margin-left: 0%;
     margin-bottom: 2.5%;
 }
 
@@ -119,37 +113,32 @@ footer {
     float: left;
 }
 #infos1 img{
-    width: 70%;
-    height: 40px;
+    width: 50%;
 }
 
 #infos2 {
     float: left;
 }
 #infos2 img{
-    width: 70%;
-    height: 40px;
+    width: 50%;
 }
 #infos3 {
     float: left;
 }
 #infos3 img{
-    width: 70%;
-    height: 40px;
+    width: 50%;
 }
 #infos4 {
     float: left;
 }
 #infos4 img{
-    width: 70%;
-    height: 40px;
+    width: 50%;
 }
 #infos5 {
     float: left;
 }
 #infos5 img{
-    width: 70%;
-    height: 40px;
+    width: 50%;
 }
 #infos a {
     text-decoration: none;
@@ -163,7 +152,6 @@ footer {
     clear: both;
     width: 100%;
 }
-
 #direitos p {
     width: 100%;
     text-align: center;
@@ -171,26 +159,1027 @@ footer {
     font-weight: 800;
     color: white;
 }
+#direitos2 {
+    float: left;
+    clear: both;
+    width: 50%;
+}
 
-#direitos ul {
+#direitos2 ul {
     width: 100%;
-    margin-left: 43%;
+    margin-left: 90%;
     margin-top: 0.5%;
 }
 
-#direitos ul li {
+#direitos2 ul li {
     display: inline-block;
     width: 5%;
 }
 
-#direitos a {
+#direito2 a {
     margin-left: 1%;
 }
 
-#direitos img {
+#direitos2 img {
     width: 100%;
     border-radius: 10px;
 }
+/*Media*/
+@media (max-width:320px) {
+
+    /*header*/
+    #partelogo {
+        width: 15%;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 5%;
+        margin-bottom: 7%;
+        margin-right: 6%;
+    }
+
+    /*Main*/
+    main {
+        margin-top: 18.5%;
+    }
+    .main-title{
+        font-size: 30px;
+        margin-top: 5%;
+    }
+    /***********main-contact.area**********/
+    #contact-area{
+        text-align: center;
+    }
+    .contact-box{
+        padding-bottom: 60%;
+        margin-bottom: 60%;
+        border-bottom: 1px solid #195005;
+    }
+    .contact-box1{
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+    }
+    #img-2{
+        margin-top: 5%;
+        width: 6.4%; 
+    }
+    #img-3{
+        width: 6.4%;
+    }
+    #img-4{
+        width: 6.4%;
+    }    
+
+    /**footer**/
+    footer {
+        float: left;
+        clear: both;
+        background-color: rgb(0, 66, 28);
+        width: 100%;
+    }
+    
+    #infos {
+        width: 100%;
+        background-color: rgb(0, 66, 28);
+        float: left;
+        clear: both;
+        border-bottom:  2px solid black ;
+    }
+    
+    #infos ul {
+        width: 7%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 12%;
+        list-style-type: none;
+    }
+    
+    #infos li {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-bottom: 2.5%;
+    }
+    
+    #infos1 {
+        float: left;
+    }
+    #infos1 img{
+        width: 100%;
+    }
+    
+    #infos2 {
+        float: left;
+    }
+    #infos2 img{
+        width: 100%;
+    }
+    #infos3 {
+        float: left;
+    }
+    #infos3 img{
+        width: 100%;
+    }
+    #infos4 {
+        float: left;
+    }
+    #infos4 img{
+        width: 100%;
+    }
+    #infos5 {
+        float: left;
+    }
+    #infos5 img{
+        width: 100%;
+    }
+    #infos a {
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+        font-weight: 800;
+    }
+    
+    #direitos {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    #direitos p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5%;
+        font-weight: 800;
+        color: white;
+    }
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 50%;
+    }
+    
+    #direitos2 ul {
+        width: 100%;
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    
+    #direitos2 ul li {
+        display: inline-block;
+        width: 5%;
+    }
+    
+    #direito2 a {
+        margin-left: 1%;
+    }
+    
+    #direitos2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+
+}
+@media (min-width: 321px) and (max-width:480px) {
+
+    /*Header*/
+    #partelogo {
+        width: 15%;
+        margin-top: 1.5%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+
+    nav ul li {
+        margin-top: 5%;
+        margin-bottom: 7%;
+        margin-right: 6%;
+    }
+
+    /*Main*/
+    main {
+        margin-top: 17%;
+    }
+    .main-title{
+        font-size: 30px;
+        margin-top: 5%;
+    }
+    /***********main-contact.area**********/
+    #contact-area{
+        text-align: center;
+    }
+    .contact-box{
+        padding-bottom: 60%;
+        margin-bottom: 60%;
+        border-bottom: 1px solid #195005;
+    }
+    .contact-box1{
+        padding-bottom: 10%;
+        margin-bottom: 10%;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    .tites{
+        font-size: 20px;
+    }
+    #img-2{
+        margin-top: 5%;
+        width: 10.4%; 
+    }
+    #img-3{
+        width: 10.4%;
+    }
+    #img-4{
+        width: 10.4%;
+    }    
+/***footer***/
+    footer {
+        float: left;
+        clear: both;
+        background-color: rgb(0, 66, 28);
+        width: 100%;
+    }
+    
+    #infos {
+        width: 100%;
+        background-color: rgb(0, 66, 28);
+        float: left;
+        clear: both;
+        border-bottom:  2px solid black ;
+    }
+    
+    #infos ul {
+        width: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 12%;
+        list-style-type: none;
+    }
+    
+    #infos li {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-bottom: 2.5%;
+    }
+    
+    #infos1 {
+        float: left;
+    }
+    #infos1 img{
+        width: 100%;
+    }
+    
+    #infos2 {
+        float: left;
+    }
+    #infos2 img{
+        width: 100%;
+    }
+    #infos3 {
+        float: left;
+    }
+    #infos3 img{
+        width: 100%;
+    }
+    #infos4 {
+        float: left;
+    }
+    #infos4 img{
+        width: 100%;
+    }
+    #infos5 {
+        float: left;
+    }
+    #infos5 img{
+        width: 100%;
+    }
+    #infos a {
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+        font-weight: 800;
+    }
+    
+    #direitos {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    #direitos p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5%;
+        font-weight: 800;
+        color: white;
+    }
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 50%;
+    }
+    
+    #direitos2 ul {
+        width: 100%;
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    
+    #direitos2 ul li {
+        display: inline-block;
+        width: 5%;
+    }
+    
+    #direito2 a {
+        margin-left: 1%;
+    }
+    
+    #direitos2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media (min-width:481px) and (max-width:768px) {
+
+    /*Header*/
+    #partelogo {
+        width: 12%;
+        margin-top: 2%;
+        margin-left: 2.5%;
+    }
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 4%;
+        margin-bottom: 6.5%;
+        margin-right: 9%;
+    }
+
+    /*Main*/
+    main {
+        margin-top: 9%;
+    }
+    .main-title{
+        font-size: 50px;
+        margin-top: 20%;
+    }
+      /***********main-contact.area**********/
+      #contact-area{
+        text-align: center;
+    }
+    .contact-box{
+        padding-bottom: 40%;
+        margin-bottom: 40%;
+        border-bottom: 1px solid #195005;
+    }
+    .contact-box1{
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    #img-2{
+        margin-top: 5%;
+        width: 10.4%; 
+    }
+    #img-3{
+        width: 10.4%;
+    }
+    #img-4{
+        width: 10.4%;
+    }    
+
+        /*footer*/
+    footer {
+        float: left;
+        clear: both;
+        background-color: rgb(0, 66, 28);
+        width: 100%;
+    }
+
+    #infos {
+        width: 100%;
+        background-color: rgb(0, 66, 28);
+        float: left;
+        clear: both;
+        border-bottom:  2px solid black ;
+    }
+
+    #infos ul {
+        width: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 12%;
+        list-style-type: none;
+    }
+
+    #infos li {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-bottom: 2.5%;
+    }
+
+    #infos1 {
+        float: left;
+    }
+    #infos1 img{
+        width: 90%;
+    }
+
+    #infos2 {
+        float: left;
+    }
+    #infos2 img{
+        width: 90%;
+    }
+    #infos3 {
+        float: left;
+    }
+    #infos3 img{
+        width: 90%;
+    }
+    #infos4 {
+        float: left;
+    }
+    #infos4 img{
+        width: 90%;
+    }
+    #infos5 {
+        float: left;
+    }
+    #infos5 img{
+        width: 90%;
+    }
+    #infos a {
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+        font-weight: 800;
+    }
+
+    #direitos {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    #direitos p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5%;
+        font-weight: 800;
+        color: white;
+    }
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 50%;
+    }
+    
+    #direitos2 ul {
+        width: 100%;
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    
+    #direitos2 ul li {
+        display: inline-block;
+        width: 5%;
+    }
+    
+    #direito2 a {
+        margin-left: 1%;
+    }
+    
+    #direitos2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media (min-width:769px) and (max-width:1024px) {
+
+    /*Header*/
+    #partelogo {
+        width: 8%;
+        margin-top: 1.5%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 3.2%;
+        margin-bottom: 4%;
+    }
+
+    /*Main*/
+    main {
+        margin-top: 15%;
+    }
+    .main-title{
+        font-size: 70px;
+        margin-top: 10%;
+    }
+      /***********main-contact.area**********/
+      #contact-area{
+        text-align: center;
+    }
+    .contact-box{
+        padding-bottom: 40%;
+        margin-bottom: 40%;
+        border-bottom: 1px solid #195005;
+    }
+    .contact-box1{
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    .tites{
+        font-size: 20px;
+    }
+    #img-2{
+        margin-top: 5%;
+        width: 10.4%; 
+    }
+    #img-3{
+        width: 10.4%;
+    }
+    #img-4{
+        width: 10.4%;
+    }    
+
+        /*footer*/
+    footer {
+        float: left;
+        clear: both;
+        background-color: rgb(0, 66, 28);
+        width: 100%;
+    }
+
+    #infos {
+        width: 100%;
+        background-color: rgb(0, 66, 28);
+        float: left;
+        clear: both;
+        border-bottom:  2px solid black ;
+    }
+
+    #infos ul {
+        width: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 12%;
+        list-style-type: none;
+    }
+
+    #infos li {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-bottom: 2.5%;
+    }
+
+    #infos1 {
+        float: left;
+    }
+    #infos1 img{
+        width: 90%;
+    }
+
+    #infos2 {
+        float: left;
+    }
+    #infos2 img{
+        width: 90%;
+    }
+    #infos3 {
+        float: left;
+    }
+    #infos3 img{
+        width: 90%;
+    }
+    #infos4 {
+        float: left;
+    }
+    #infos4 img{
+        width: 90%;
+    }
+    #infos5 {
+        float: left;
+    }
+    #infos5 img{
+        width: 90%;
+    }
+    #infos a {
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+        font-weight: 800;
+    }
+
+    #direitos {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    #direitos p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5%;
+        font-weight: 800;
+        color: white;
+    }
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 50%;
+    }
+    
+    #direitos2 ul {
+        width: 100%;
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    
+    #direitos2 ul li {
+        display: inline-block;
+        width: 5%;
+    }
+    
+    #direito2 a {
+        margin-left: 1%;
+    }
+    
+    #direitos2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media (min-width:1025px) and (max-width:1200px) {
+
+    /*Header*/
+    #partelogo {
+        width: 5%;
+        margin-top: 1%;
+        margin-left: 2.5%;
+    }
+
+    #logo {
+        border-radius: 20%;
+    }
+    nav ul li {
+        margin-top: 2.5%;
+        margin-bottom: 3.5%;
+    }
+
+    /*Main*/
+    main {
+        margin-top: 10%;
+    }
+    .main-title{
+        font-size: 70px;
+        margin-top: 10%;
+    }
+      /***********main-contact.area**********/
+      #contact-area{
+        text-align: center;
+    }
+    .contact-box{
+        padding-bottom: 40%;
+        margin-bottom: 40%;
+        border-bottom: 1px solid #195005;
+    }
+    .contact-box1{
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+    }
+    .contact-title{
+        font-size: 20px;
+    }
+    .tites{
+        font-size: 20px;
+    }
+    #img-2{
+        margin-top: 5%;
+        width: 10.4%; 
+    }
+    #img-3{
+        width: 10.4%;
+    }
+    #img-4{
+        width: 10.4%;
+    }    
+
+        /*footer*/
+    footer {
+        float: left;
+        clear: both;
+        background-color: rgb(0, 66, 28);
+        width: 100%;
+    }
+
+    #infos {
+        width: 100%;
+        background-color: rgb(0, 66, 28);
+        float: left;
+        clear: both;
+        border-bottom:  2px solid black ;
+    }
+
+    #infos ul {
+        width: 5%;
+        margin-top: 2.5%;
+        margin-bottom: 2.5%;
+        margin-left: 12%;
+        list-style-type: none;
+    }
+
+    #infos li {
+        margin-top: 2.5%;
+        margin-left: 0%;
+        margin-bottom: 2.5%;
+    }
+
+    #infos1 {
+        float: left;
+    }
+    #infos1 img{
+        width: 90%;
+    }
+
+    #infos2 {
+        float: left;
+    }
+    #infos2 img{
+        width: 90%;
+    }
+    #infos3 {
+        float: left;
+    }
+    #infos3 img{
+        width: 90%;
+    }
+    #infos4 {
+        float: left;
+    }
+    #infos4 img{
+        width: 90%;
+    }
+    #infos5 {
+        float: left;
+    }
+    #infos5 img{
+        width: 90%;
+    }
+    #infos a {
+        text-decoration: none;
+        color: black;
+        font-size: 110%;
+        font-weight: 800;
+    }
+
+    #direitos {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+    #direitos p {
+        width: 100%;
+        text-align: center;
+        margin-top: 2.5%;
+        font-weight: 800;
+        color: white;
+    }
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 100%;
+    }
+
+    #direitos2 {
+        float: left;
+        clear: both;
+        width: 50%;
+    }
+    
+    #direitos2 ul {
+        width: 100%;
+        margin-left: 90%;
+        margin-top: 0.5%;
+    }
+    
+    #direitos2 ul li {
+        display: inline-block;
+        width: 5%;
+    }
+    
+    #direito2 a {
+        margin-left: 1%;
+    }
+    
+    #direitos2 img {
+        width: 100%;
+        border-radius: 10px;
+    }
+}
+@media (min-width:1201px) {
+
+    /*Header*/
+header {
+    width: 100%;
+    background-color: rgb(0, 66, 28);
+    position: fixed;
+    z-index: 1;
+}
+#partelogo {
+    width: 7%;
+    margin-top: 0.2%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+}
+
+#logo {
+    width: 100%;
+    float: left;
+    border-radius: 5%;
+}
+nav ul li {
+    display: inline-block;
+    float: right;
+    margin-top: 1.5%;
+    margin-right: 10%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 120%;
+}
+
+/*Main*/
+main {
+    float: left;
+    clear: both;
+    background-color: white;
+    margin-top: 4.5%;
+    width: 100%;
+    z-index: 1;
+}
+.main-title{
+    font-size: 50px;
+    margin-top: 10%;
+}
+/***********main-contact.area**********/
+#contact-area{
+    text-align: center;
+}
+.contact-box{
+    padding-bottom: 20%;
+    margin-bottom: 20%;
+    border-bottom: 1px solid #195005;
+}
+.contact-box1{
+    padding-bottom: 10%;
+    margin-bottom: 10%;
+}
+#img-2{
+    margin-top: 5%;
+    width: 10.4%; 
+}
+#img-3{
+    width: 10.4%;
+}
+#img-4{
+    width: 10.4%;
+}
+
+/*footer*/
+footer {
+    float: left;
+    clear: both;
+    background-color: rgb(0, 66, 28);
+    width: 100%;
+}
+
+#infos {
+    width: 100%;
+    background-color: rgb(0, 66, 28);
+    float: left;
+    clear: both;
+    border-bottom:  2px solid black ;
+}
+
+#infos ul {
+    width: 5%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 12%;
+    list-style-type: none;
+}
+
+#infos li {
+    margin-top: 2.5%;
+    margin-left: 0%;
+    margin-bottom: 2.5%;
+}
+
+#infos1 {
+    float: left;
+}
+#infos1 img{
+    width: 50%;
+}
+
+#infos2 {
+    float: left;
+}
+#infos2 img{
+    width: 50%;
+}
+#infos3 {
+    float: left;
+}
+#infos3 img{
+    width: 50%;
+}
+#infos4 {
+    float: left;
+}
+#infos4 img{
+    width: 50%;
+}
+#infos5 {
+    float: left;
+}
+#infos5 img{
+    width: 50%;
+}
+#infos a {
+    text-decoration: none;
+    color: black;
+    font-size: 110%;
+    font-weight: 800;
+}
+
+#direitos {
+    float: left;
+    clear: both;
+    width: 100%;
+}
+#direitos p {
+    width: 100%;
+    text-align: center;
+    margin-top: 2.5%;
+    font-weight: 800;
+    color: white;
+}
+#direitos2 {
+    float: left;
+    clear: both;
+    width: 50%;
+}
+
+#direitos2 ul {
+    width: 100%;
+    margin-left: 90%;
+    margin-top: 0.5%;
+}
+
+#direitos2 ul li {
+    display: inline-block;
+    width: 5%;
+}
+
+#direito2 a {
+    margin-left: 1%;
+}
+
+#direitos2 img {
+    width: 100%;
+    border-radius: 10px;
+}
+}
+
 
 
 
