@@ -251,50 +251,48 @@ footer {
     width: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    margin-left: 12%;
+    margin-left: 5%;
     list-style-type: none;
+}
+#infos ul:first-child{
+    margin-left: 30%;
 }
 
 #infos li {
     margin-top: 2.5%;
-    margin-left: 0%;
     margin-bottom: 2.5%;
 }
 
 #infos1 {
     float: left;
-    background-color: aqua;
 }
 #infos1 img{
     width: 100%;
 }
 #infos2 {
     float: left;
-    background-color: blueviolet;
 }
 #infos2 img{
     width: 100%;
 }
 #infos3 {
     float: left;
-    background-color: aquamarine;
 }
 #infos3 img{
     width: 100%;
 }
 #infos4 {
     float: left;
-    background-color:  aqua;
+    
 }
 #infos4 img{
-    width: 50%;
+    width: 100%;
 }
 #infos5 {
     float: left;
-    background-color: rgb(32, 197, 142);
 }
 #infos5 img{
-    width: 50%;
+    width: 80%;
 }
 #infos a {
     text-decoration: none;
