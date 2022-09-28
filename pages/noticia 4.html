@@ -8,7 +8,7 @@
     <link rel="icon" href="../img/logo.png">
     <title>Histórico de Guerra</title>
 </head>
-<body>
+<body onload="initClock()">
     <header>
         <figure id="partelogo">
             <img src="../img/logoquadrada.jpeg" alt="" id="logo">
@@ -47,7 +47,22 @@
             <a href="../pages/noticia 6.html"><img src="../img/not6.png" alt="" id="imgrap"></a>
             <h3 id="h3rap">Os Fuzilamentos</h3>
         </aside>
-        
+        <script src="../js/javascript.js"></script>
+        <aside id="js">
+            <div class="datetime">
+                <div class="date">
+                    <span id="dayname">Dia</span>
+                    <span id="daynum">00</span>
+                    <span id="month">Mês</span>
+                    <span id="year">Ano</span>
+                </div>
+                <div class="time">
+                    <span id="hour">00</span>:
+                    <span id="minutes">00</span>:
+                    <span id="seconds">00</span>
+                </div>
+            </div>
+        </aside>
     </div>
     </main>
     <footer>
