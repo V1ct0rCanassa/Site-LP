@@ -124,73 +124,112 @@ main {
     padding-bottom: 10px;
 }
 /*footer*/
-footer{
+footer {
     float: left;
     clear: both;
-    background-color: red;
+    background-color: rgb(0, 66, 28);
     width: 100%;
 }
-#infos{
+
+#infos {
     width: 100%;
-    background-color: green;
+    background-color: rgb(0, 66, 28);
     float: left;
     clear: both;
+    border-bottom:  2px solid black ;
 }
-#infos ul{
-    width: 25%;
+
+#infos ul {
+    width: 5%;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     margin-left: 5%;
     list-style-type: none;
 }
-#infos li{
+#infos ul:first-child{
+    margin-left: 25%;
+}
+
+#infos li {
     margin-top: 2.5%;
-    margin-left: 45%;
     margin-bottom: 2.5%;
 }
-#infos1{
+
+#infos1 {
     float: left;
-    background-color: aqua;
 }
-#infos2{
+#infos1 img{
+    width: 100%;
+}
+#infos2 {
     float: left;
-    background-color: blueviolet;
 }
-#infos3{
+#infos2 img{
+    width: 100%;
+}
+#infos3 {
     float: left;
-    background-color: aquamarine;
 }
-#infos a{
+#infos3 img{
+    width: 100%;
+}
+#infos4 {
+    float: left;
+    
+}
+#infos4 img{
+    width: 100%;
+}
+#infos5 {
+    float: left;
+}
+#infos5 img{
+    width: 80%;
+}
+#infos a {
     text-decoration: none;
     color: black;
     font-size: 110%;
+    font-weight: 800;
 }
-#direitos{
+
+#direitos {
     float: left;
     clear: both;
     width: 100%;
 }
-#direitos p{
+
+#direitos p {
     width: 100%;
     text-align: center;
     margin-top: 2.5%;
+    font-weight: 800;
 }
-#direitos ul{
+#direitos2 {
+    float: left;
+    clear: both;
     width: 50%;
-    margin-left: 46%;
+}
+#direitos2 ul {
+    width: 100%;
+    margin-left: 90%;
     margin-top: 0.5%;
 }
-#direitos ul li{
+#direitos2 ul li {
     display: inline-block;
     width: 5%;
 }
-#direitos a{
+
+#direito2 a {
     margin-left: 1%;
 }
-#direitos img{
+
+#direitos2 img {
     width: 100%;
     border-radius: 10px;
 }
+
+
 /*Media*/
 @media (max-width:320px){
     /*header*/
